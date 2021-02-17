@@ -1,36 +1,15 @@
 <template>
   <div class="container">
     <div>
-      <NuxtLogo />
-      <h1 class="title">
-        task
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <CardsList />
     </div>
   </div>
 </template>
 
 <script>
-import NuxtLogo from "../components/NuxtLogo"
+import CardsList from "../components/CardsList"
 export default {
-  components: { NuxtLogo }
+  components: { CardsList }
 }
 </script>
 

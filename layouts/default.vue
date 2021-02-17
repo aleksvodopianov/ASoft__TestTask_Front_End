@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="background">
     <TheHeader />
     <Nuxt />
     <TheFooter />
@@ -70,3 +70,9 @@ export default {
   components: { TheHeader, TheFooter }
 }
 </script>
+
+<style>
+.background {
+  background: #f1f1f1;
+}
+</style>

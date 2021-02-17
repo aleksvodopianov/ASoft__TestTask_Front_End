@@ -56,8 +56,8 @@ export default {
 
 <style>
 header {
-  position: fixed;
   width: 100%;
+  margin-bottom: 15px;
 }
 
 .headerBlock {
@@ -75,7 +75,6 @@ p {
 .navbar {
   color: white;
   width: 100%;
-  z-index: 100;
   justify-content: center;
 }
 

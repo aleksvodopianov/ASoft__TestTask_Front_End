@@ -1,6 +1,8 @@
 <template>
   <div>
+    <TheHeader />
     <Nuxt />
+    <TheFooter />
   </div>
 </template>
 
@@ -60,3 +62,11 @@ html {
   background-color: #35495e;
 }
 </style>
+
+<script>
+import TheHeader from '~/components/layout/TheHeader'
+import TheFooter from '~/components/layout/TheFooter'
+export default {
+  components: { TheHeader, TheFooter }
+}
+</script>

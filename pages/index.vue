@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
+      <NuxtLogo />
       <h1 class="title">
         task
       </h1>
@@ -28,7 +28,10 @@
 </template>
 
 <script>
-export default {}
+import NuxtLogo from "../components/NuxtLogo"
+export default {
+  components: { NuxtLogo }
+}
 </script>
 
 <style>
